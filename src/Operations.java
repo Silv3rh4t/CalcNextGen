@@ -19,7 +19,7 @@ public class Operations
     public static void main(String args[]) throws java.io.IOException
     {
         u.l(2);
-        System.out.println("_______________________________CalcNextGen v7.6.0________________________________");//IDK
+        System.out.println("_______________________________CalcNextGen v7.7.0________________________________");//IDK
         System.out.println("Choose the operation");
         u.pln("Equation Operations->");
         u.plnt("1-Basic[Decimal] Equations");
@@ -29,7 +29,6 @@ public class Operations
         u.l();
         u.pln("Other Menus->");
         u.plnt("5-Percentage");
-        u.plnt("6-Exponential and Logarithms");
         u.plnt("8-Trignometrical Conversions");
         u.l();
         u.pln("Other Options->");
@@ -38,8 +37,6 @@ public class Operations
         u.plnt("C-Try QMaker[Beta]");
         u.plnt("D-Find LCM or HCF");
       //  u.plnt("E-Try TimeCalc[Beta]");
-        u.l();
-        u.pln("v- Version Log");
         u.l();
         System.out.println("0-Terminate");
         char opt = u.iBc();//Concluded-Never change this to int again
@@ -61,7 +58,7 @@ public class Operations
             break;
             
             case '3':
-            CalcBase.Fraction.main();
+            Fraction.main();
             break;
 
             case '4':
@@ -70,10 +67,6 @@ public class Operations
 
             case '5':
             Percent.main();
-            break;
-
-            case '6':
-            Power.main();
             break;
 
             case '8':
