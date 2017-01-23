@@ -11,7 +11,6 @@ public class Power {
 			}
 		}
 		else return Integer.toString(n);
-		return null;
 	}
 	
 
