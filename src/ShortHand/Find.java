@@ -21,23 +21,11 @@ public class Find
         return ans;
     }
     
-    public static char valType(String n)
-    {
-        if (Str.isInt(n)&&Str.has('.',n))
-            return 'd';
-        else if (Str.isInt(n))
-            return 'i';
-        else if (Str.has('/',n))
-        {
-            int v=n.indexOf('/');
-            String p=n.substring(0,v);
-            String l=n.substring(v);
-            if(Str.isInt(p)&&Str.isInt(l))
-                return 'f';
-        }
-        else if (n.length()==1&&Arr.check(n.charAt(0),CalcBase.Equate.valin))
-            return 'o';
-        return 'u';
+    public static int factor(int n){
+    	for (int i=2;i<n;i++){
+    		if(n%i==0)return i;
+    	}
+		return n;
     }
 }
 
