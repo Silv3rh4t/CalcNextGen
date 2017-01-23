@@ -13,5 +13,5 @@ public class Power {
 		else return Integer.toString(n);
 	}
 	
-d
+
 }
