@@ -104,7 +104,7 @@ public class Operations
             log.main();
             break;
             
-            case 0:
+            case '0':
             break;
 
             default:

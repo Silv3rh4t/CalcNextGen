@@ -9,7 +9,7 @@ public class Quad
         u.pln("Enter Equation [use only 'x' as the variable]");
         u.pln("E.g.-> 2x^2[+/-]4x[+/-]1");
     	String eq=u.iSs();
-    	int a=Integer.parseInt(eq.substring(0,eq.indexOf('x')));
+    	/*int a=Integer.parseInt(eq.substring(0,eq.indexOf('x')));
     	
         double d= (b*b)-(4*a*c);
         double r1= ((-b) + Math.pow(d,0.5))/(2*a);
@@ -21,6 +21,6 @@ public class Quad
         u.pln("Determinant => "+d);
         if (d>0)u.pln("Virtual Roots");
         if (d==0)u.pln("Equal roots");
-        if (d>0)u.pln("Real roots");
+        if (d>0)u.pln("Real roots");*/
     }
 }
